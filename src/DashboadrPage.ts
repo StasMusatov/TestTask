@@ -14,7 +14,6 @@ export class DashboardPage {
   }
 
   async getTable() {
-    // Используем xpath для поиска таблицы
     return await this.page.waitForSelector("//table");
   }
 
